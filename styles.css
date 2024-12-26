@@ -1,0 +1,55 @@
+/* ---- reset ---- */
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: #00355f !important;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+.count-particles {
+    position: relative;
+    width: 100%;
+    height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.contactusHeading{
+    font-size: 80px !important;
+    color: #ffff;
+}
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+    .contactusHeading {
+        font-size: 40px !important;
+    }
+}
+
+/* #stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+} */
+
