@@ -1399,10 +1399,10 @@ p {
     margin-bottom: 10px;
 }
 
-.content-card-primary,
+/*.content-card-primary,
 .content-card-secondary,
 .icon-wrapper,
-.payment-title,
+.payment-title,*/
 .payment-description {
     text-align: left;
     /* Align all content to the left */
